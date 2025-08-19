@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+*, ::after, ::before{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  line-height: 1.5;
+  background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+header{
+  display: flex;
+  padding: 1em;
+  
+}
+header img{
+  width: 50px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.hero{
+  background-color: aquamarine;
+  padding: 4em;
+}
+
+section{
+  width: 90%;
+  margin: 3em auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
+article{
+  border: solid 2px green;
+  padding: 1em;
+}
